@@ -1,0 +1,17 @@
+{
+  "name": "sleghartRPC",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "FelipeSazz <felipe@sazz.fail>",
+  "license": "MIT",
+  "dependencies": {
+    "discord-rpc": "^3.1.4",
+    "electron-forge": "^5.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  }
+}
